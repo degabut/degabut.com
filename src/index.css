@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: opificio;
+	src: url("/font/opificio.ttf");
+	font-display: swap;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	scrollbar-color: rgb(82 82 82), transparent;
+}
+
+body {
+	@apply h-full;
+	@apply overflow-x-hidden;
+}
+
+.font-brand {
+	font-family: "opificio";
+}
+
+::-webkit-scrollbar {
+	@apply w-1 md:w-2 h-1 md:h-2;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-opacity-0;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-neutral-600;
+}
+
+.monitor {
+	width: 720px;
+	height: 480px;
+	overflow-y: scroll;
+	border: solid 1em #333;
+	border-radius: 0.5em;
+}
+.monitor::-webkit-scrollbar {
+	width: 15px;
+}
+.monitor::-webkit-scrollbar-thumb {
+	background: #666;
+}
+::-webkit-scrollbar-track {
+	background-color: #888;
+}
+.stand:before {
+	content: "";
+	display: block;
+	position: relative;
+	background: #222;
+	width: 150px;
+	height: 50px;
+	top: 382px;
+	left: 185px;
+}
+.stand:after {
+	content: "";
+	display: block;
+	position: relative;
+	background: #333;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	width: 300px;
+	height: 15px;
+	top: 50px;
+	left: 110px;
+}
