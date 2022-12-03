@@ -98,6 +98,15 @@ export const App: Component = () => {
 								}}
 							>
 								<img class="w-[72rem]" src="/img/bg.png" alt="" />
+								<div
+									classList={{
+										"absolute max-w-[25%] -bottom-8 right-8": true,
+										"border-neutral-700 border-x-2 border-y-4 md:border-x-4 md:border-y-8": true,
+										"rounded-lg md:rounded-2xl shadow-black shadow-lg": true,
+									}}
+								>
+									<img class="w-[12rem] aspect-[7.75/16] rounded-lg" src="/img/bgm.png" alt="" />
+								</div>
 							</div>
 							<div class="bg-neutral-700 w-[10%] h-8" />
 							<div class="bg-neutral-700 w-[25%] h-3 rounded-full" />
