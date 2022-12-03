@@ -104,7 +104,7 @@ export const App: Component = () => {
 						</a>
 					</div>
 
-					{/* <div class="absolute w-[200%] bottom-0 h-full bg-gradient-to-bl from-neutral-700 to-neutral-900 opacity-50 -z-10 -rotate-45 left-32" /> */}
+					<div class="absolute w-[200%] bottom-0 h-full bg-gradient-to-bl from-neutral-700 to-neutral-900 opacity-50 -z-10 -rotate-45 left-32" />
 				</div>
 			</div>
 		</div>
