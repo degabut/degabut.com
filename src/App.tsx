@@ -56,16 +56,16 @@ export const App: Component = () => {
 					classList={{
 						"relative w-full h-full z-10 overflow-hidden": true,
 						"flex flex-col 2xl:flex-row md:items-center justify-center 2xl:justify-start": true,
-						"px-4 sm:px-8 md:px-16 space-y-24 2xl:space-x-24": true,
+						"px-4 sm:px-8 md:px-16 space-y-12 2xl:space-x-24": true,
 						"bg-gradient-to-tr from-neutral-900 to-neutral-800": true,
 					}}
 				>
 					<div class="flex flex-col space-y-8 shrink-0">
-						<div class="py-4 font-brand font-black text-6xl md:text-8xl md:text-center 2xl:text-left">
+						<div class="2xl:py-4 font-brand font-black text-6xl md:text-7xl 2xl:text-8xl md:text-center 2xl:text-left">
 							degabut
 						</div>
 						<div class="space-y-4">
-							<div class="text-neutral-300 text-lg md:text-3xl md:text-center 2xl:text-left">
+							<div class="text-neutral-300 text-lg md:text-xl 2xl:text-3xl md:text-center 2xl:text-left">
 								Open source, feature rich Discord music bot
 							</div>
 							<div class="flex flex-row md:justify-center 2xl:justify-start text-neutral-400 text-lg md:text-xl space-x-8">
@@ -92,29 +92,19 @@ export const App: Component = () => {
 						>
 							<div
 								classList={{
-									"relative max-w-2xl 2xl:max-w-5xl shadow-black shadow-2xl": true,
+									"relative max-w-lg 2xl:max-w-5xl shadow-black shadow-2xl": true,
 									"rounded-md md:rounded-lg": true,
 									"border-[3px] border-b-4 md:border-[6px] md:border-b-8 border-neutral-700": true,
 								}}
 							>
 								<img class="w-[72rem]" src="/img/bg.png" alt="" />
-
-								<div
-									classList={{
-										"absolute max-w-[25%] -bottom-8 right-8": true,
-										"border-neutral-700 border-x-2 border-y-4 md:border-x-4 md:border-y-8": true,
-										"rounded-lg md:rounded-2xl shadow-black shadow-lg": true,
-									}}
-								>
-									<img class="w-[12rem] aspect-[7.75/16] rounded-lg" src="/img/bgm.png" alt="" />
-								</div>
 							</div>
 							<div class="bg-neutral-700 w-[10%] h-8" />
 							<div class="bg-neutral-700 w-[25%] h-3 rounded-full" />
 						</a>
 					</div>
 
-					<div class="absolute w-[200%] bottom-0 h-full bg-gradient-to-bl from-neutral-700 to-neutral-900 opacity-50 -z-10 -rotate-45 left-32" />
+					{/* <div class="absolute w-[200%] bottom-0 h-full bg-gradient-to-bl from-neutral-700 to-neutral-900 opacity-50 -z-10 -rotate-45 left-32" /> */}
 				</div>
 			</div>
 		</div>
