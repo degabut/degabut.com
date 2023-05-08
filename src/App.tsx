@@ -65,18 +65,18 @@ export const App: Component = () => {
 							degabut
 						</div>
 						<div class="space-y-4">
-							<div class="text-neutral-300 text-lg md:text-xl 2xl:text-3xl md:text-center 2xl:text-left">
+							<div class="text-neutral-200 text-lg md:text-xl 2xl:text-3xl md:text-center 2xl:text-left">
 								Open source, feature rich Discord music bot
 							</div>
-							<div class="flex flex-row md:justify-center 2xl:justify-start text-neutral-400 text-lg md:text-xl space-x-8">
+							<div class="flex flex-row md:justify-center 2xl:justify-start text-neutral-300 text-lg md:text-xl space-x-8">
 								<a
-									class="underline underline-offset-2 hover:text-neutral-100"
+									class="underline underline-offset-4 hover:text-neutral-100"
 									href="https://github.com/degabut"
 								>
 									GitHub
 								</a>
 								<a
-									class="underline underline-offset-2 hover:text-neutral-100"
+									class="underline underline-offset-4 hover:text-neutral-100"
 									href="https://github.com/degabut/examples/tree/main/v3"
 								>
 									Guide
@@ -86,10 +86,7 @@ export const App: Component = () => {
 					</div>
 
 					<div class="flex flex-col 2xl:flex-grow items-start 2xl:items-center">
-						<a
-							href="https://github.com/degabut/degabut-web#screenshot-showcase"
-							class="flex flex-col items-center"
-						>
+						<a href="https://github.com/degabut" class="flex flex-col items-center">
 							<div
 								classList={{
 									"relative max-w-lg 2xl:max-w-5xl shadow-black shadow-2xl": true,
