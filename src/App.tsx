@@ -77,7 +77,7 @@ export const App: Component = () => {
 								</a>
 								<a
 									class="underline underline-offset-4 hover:text-neutral-100"
-									href="https://github.com/degabut/examples/tree/main/v3"
+									href="https://github.com/degabut/examples"
 								>
 									Guide
 								</a>
